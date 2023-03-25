@@ -202,6 +202,68 @@
           </td>
         </tr> 
 
+        <tr onmouseout="temo_stop()" onmouseover="temo_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+          <div class="two" id='temo_image'>
+            <img src='images/temo_before.png' width="160"></div>
+          <img src='images/temo_after.png' width="160">
+          </div>
+          <script type="text/javascript">
+          function temo_start() {
+            document.getElementById('temo_image').style.opacity = "1";
+          }
+
+          function temo_stop() {
+            document.getElementById('temo_image').style.opacity = "0";
+          }
+          temo_stop()
+          </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://github.com/Umnoon/Tweet-Emotion-Recognition-with-Tensorflow">
+          <papertitle>Tweet Emotion Recognition with Tensorflow</papertitle>
+          </a> 
+          <br>
+          <a href="https://github.com/Umnoon/Tweet-Emotion-Recognition-with-Tensorflow">Source Code</a>
+          <p>
+            I created a recurrent neural network or `RNN` and train it on a tweet emotion dataset from hugging Face, to learn and recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions. 
+            This is a multi-class classification problem in the natural language processing domain.
+          </p>
+          </td>
+        </tr> 
+
+        <tr onmouseout="collision_stop()" onmouseover="collision_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+          <div class="two" id='collision_image'>
+            <img src='images/collision_before.png' width="160"></div>
+          <img src='images/collision_after.png' width="160">
+          </div>
+          <script type="text/javascript">
+          function collision_start() {
+            document.getElementById('collision_image').style.opacity = "1";
+          }
+
+          function collision_stop() {
+            document.getElementById('collision_image').style.opacity = "0";
+          }
+          collision_stop()
+          </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://github.com/Umnoon/Data-Science-webapp-with-Streamlit-and-Python/tree/main">
+          <papertitle>Streamlit and Python Data Science Webapp for Motor Vehicle Collisions in NYC</papertitle>
+          </a> 
+          <br>
+          <a href="https://github.com/Umnoon/Data-Science-webapp-with-Streamlit-and-Python/tree/main">Source Code</a>
+          <p>
+            I built a basic data science webapp with streamlit analyzing motor vehicle collision in NYC. 
+            I used the following libraries: numpy, pandas, pydeck and plotly
+          </p>
+          </td>
+        </tr> 
+
 
         
 
